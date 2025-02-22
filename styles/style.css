@@ -9,10 +9,8 @@
 #page {
   display:flex;
   flex-direction: column;
-  padding: 88px;
   width: 1120px;
   margin: 0 auto;
-
 }
 
 img {
@@ -69,7 +67,7 @@ h2{
   margin-top: 48px;
 }
 
-h3{
+h3 {
   padding-top: 20px;
   font-size: 28px;
 }
