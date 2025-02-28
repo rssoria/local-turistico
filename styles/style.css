@@ -7,25 +7,32 @@
 }
 
 #page {
-  display:flex;
-  flex-direction: column;
   width: 1120px;
   margin: 0 auto;
+  padding-block: 30px;
+}
+
+#page > section {
+  padding-bottom: 44px;
+  border-bottom: 1px solid #D9D9D9;
 }
 
 img {
   max-width: 100%;
 }
 
-#first-section {
-  padding-bottom: 44px;
-  border-bottom: 1px solid #D9D9D9;
-}
-
-
 h1 {
   font-size: 36px;
   margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  padding-top: 20px;
+  font-size: 28px;
 }
 
 main {
@@ -38,19 +45,15 @@ main .subtitle{
  font-style: normal;
 }
 
-.good-for-section {
+.good-for {
   margin-top: 16px;
-  color: #333333
-}
-
-h2{
-  font-size: 32px;
+  color: #333333;
 }
 
 .subtitle {
-  margin-top: 24px;
   font-style: italic;
   font-weight: 400;
+  margin-top: 24px;
   text-align: center;
 }
 
@@ -67,37 +70,32 @@ h2{
   margin-top: 48px;
 }
 
-h3 {
-  padding-top: 20px;
-  font-size: 28px;
-}
-
 ul {
   padding-left: 24px;
 }
 
 .history {
-  color: #0C51A7 ;
+  color: #0C51A7;
 }
 
 .couples {
-  color: #591B98 ;
+  color: #591B98;
 }
 
 .family {
-  color: #E5245E ;
+  color: #E5245E;
 }
 
 .budget {
-  color: #E95E10 ;
+  color: #E95E10;
 }
 
-.destino.last{
+.destino:last-child{
   border-bottom: 1px solid #D9D9D9;
   padding-bottom: 40px;
 }
 
-.subtitle.last{
+.subtitle:last-child{
   margin-top: 40px;
   font-style: normal;
 }
